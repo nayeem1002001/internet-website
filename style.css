@@ -1,0 +1,81 @@
+/* Reset default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Banner section styles */
+  #banner {
+    background: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 50px;
+  }
+  
+  /* Services section styles */
+  #services {
+    background: #f2f2f2;
+    padding: 50px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .service {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .service img {
+    max-width: 100%;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .services-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service {
+      width: 100%;
+    }
+  }
+  
